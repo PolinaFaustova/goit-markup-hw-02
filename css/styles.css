@@ -1,0 +1,47 @@
+body {
+  background-color: #f5f5f5;
+  color: #212121;
+}
+.page-header {
+  background-color: #ffffff;
+}
+.footer-bck {
+  background-color: #2f303a;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+/* колір осн тексту #212121 */
+/* колір параграфів #757575 */
+/* h1 #FFFFFF */
+/* голубий акцент #2196F3 */
+/* хедер колір фону #FFFFFF */
+/* наша команда #F5F4FA */
+/* чорний футер #2F303A */
+
+/* site-nav */
+.site-nav-list .link {
+  color: #212121;
+}
+
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: #2196f3;
+}
+.logo {
+  color: #000000;
+}
+.contacts-h a {
+  color: #757575;
+}
+.contacts-h a:hover,
+.contacts-h a:focus {
+  color: #2196f3;
+}
