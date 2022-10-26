@@ -10,7 +10,7 @@ body {
 .site-nav-list .link {
   color: #212121;
 }
-.site-nav-list .link-active {
+.site-nav-list .link-current {
   color: #2196f3;
 }
 
