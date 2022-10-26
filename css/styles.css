@@ -18,8 +18,8 @@ body {
 .site-nav-list .link:focus {
   color: #2196f3;
 }
-.site-nav-list .link-active:hover,
-.site-nav-list .link-active:focus {
+.site-nav-list:hover,
+.site-nav-list:focus {
   color: #000000;
 }
 .logo {
