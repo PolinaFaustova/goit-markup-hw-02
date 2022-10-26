@@ -2,18 +2,46 @@ body {
   background-color: #f5f5f5;
   color: #212121;
 }
+/* хедер */
 .page-header {
   background-color: #ffffff;
 }
-.footer-bck {
-  background-color: #2f303a;
+/* site-nav */
+.site-nav-list .link {
+  color: #212121;
 }
+.site-nav-list .link-active {
+  color: #2196f3;
+}
+
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: #2196f3;
+}
+.site-nav-list .link-active:hover,
+.site-nav-list .link-active:focus {
+  color: #000000;
+}
+.logo {
+  color: #000000;
+}
+.contacts-h a {
+  color: #757575;
+}
+.contacts-h a:hover,
+.contacts-h a:focus {
+  color: #2196f3;
+}
+
+/* видалила лапки та підкреслювання */
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
+
+/* секція герой */
 .hero {
   background-color: #2f303a;
   color: #ffffff;
@@ -26,22 +54,16 @@ a {
 /* наша команда #F5F4FA */
 /* чорний футер #2F303A */
 
-/* site-nav */
-.site-nav-list .link {
+/* Button */
+.button {
+  background-color: #f5f4fa;
   color: #212121;
 }
-
-.site-nav-list .link:hover,
-.site-nav-list .link:focus {
-  color: #2196f3;
+.button.primary {
+  background-color: #2196f3;
+  color: #ffffff;
 }
-.logo {
-  color: #000000;
-}
-.contacts-h a {
-  color: #757575;
-}
-.contacts-h a:hover,
-.contacts-h a:focus {
-  color: #2196f3;
+/* футер */
+.footer-bck {
+  background-color: #2f303a;
 }
