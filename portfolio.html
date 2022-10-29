@@ -4,38 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
       <nav>
-        <a href="" class="logo">WebStudio</a>
+        <a href="" class="logo-header"><span class="web">Web</span>Studio</a>
         <ul class="site-nav-list">
           <li><a href="./index.html" class="link">Студія</a></li>
           <li><a href="./portfolio.html" class="link-current">Портфоліо</a></li>
           <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts-h">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+      <ul class="contacts-header">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link-current"
+            >info@devstudio.com</a
+          >
+        </li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Портфоліо</h1>
+      <section class="section-portfolio">
+        <h1 hidden>Портфоліо</h1>
         <ul>
-          <li><button type="button" class="button primary">Усі</button></li>
+          <li><button type="button" class="button-secondary">Усі</button></li>
           <li><button type="button" class="button">Веб-сайти</button></li>
           <li><button type="button" class="button">Додатки</button></li>
           <li><button type="button" class="button">Дизайн</button></li>
           <li><button type="button" class="button">Маркетинг</button></li>
         </ul>
-      </section>
-      <!-- Приклади робіт -->
-      <section>
-        <h2>Фотки робіт</h2>
+
         <ul>
           <li>
             <img
@@ -43,13 +50,13 @@
               alt="технокряк"
               width="370"
             />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h2 class="port-name">Технокряк</h2>
+            <p class="port-p">Веб-сайт</p>
           </li>
           <li>
             <img src="./images/roboty/poster.jpg" alt="постер" width="370" />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h2 class="port-name">Постер New Orlean vs Golden Star</h2>
+            <p class="port-p">Дизайн</p>
           </li>
           <li>
             <img
@@ -57,18 +64,18 @@
               alt="ресторан"
               width="370"
             />
-            <h3>Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <h2 class="port-name">Ресторан Seafood</h2>
+            <p class="port-p">Додаток</p>
           </li>
           <li>
             <img src="./images/roboty/prime.jpg" alt="prime" width="370" />
-            <h3>Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <h2 class="port-name">Проєкт Prime</h2>
+            <p class="port-p">Маркетинг</p>
           </li>
           <li>
             <img src="./images/roboty/boxes.jpg" alt="boxes" width="370" />
-            <h3>Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <h2 class="port-name">Проєкт Boxes</h2>
+            <p class="port-p">Додаток</p>
           </li>
           <li>
             <img
@@ -76,18 +83,18 @@
               alt="inspiration"
               width="370"
             />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h2 class="port-name">Inspiration has no Borders</h2>
+            <p class="port-p">Веб-сайт</p>
           </li>
           <li>
             <img src="./images/roboty/limited.jpg" alt="limited" width="370" />
-            <h3>Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <h2 class="port-name">Видання Limited Edition</h2>
+            <p class="port-p">Дизайн</p>
           </li>
           <li>
             <img src="./images/roboty/lab.jpg" alt="lab" width="370" />
-            <h3>Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <h2 class="port-name">Проєкт LAB</h2>
+            <p class="port-p">Маркетинг</p>
           </li>
           <li>
             <img
@@ -95,19 +102,25 @@
               alt="business"
               width="370"
             />
-            <h3>Growing Business</h3>
-            <p>Додаток</p>
+            <h2 class="port-name">Growing Business</h2>
+            <p class="port-p">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer-bck">
-      <a href="" class="logo">WebStudio</a>
+      <a href="" class="logo-footer"><span class="web">Web</span>Studio</a>
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
+        <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="footer-contacts">
+            <a href="mailto:info@devstudio.com" class="footer-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="footer-contacts">
+            <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
