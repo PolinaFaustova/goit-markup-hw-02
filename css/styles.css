@@ -222,7 +222,9 @@ a {
 
 /* Портфоліо */
 /* Секція ПОРТФОЛІО */
-
+.section-portfolio {
+  background-color: var(--background-color);
+}
 .port-name {
   font-weight: 700;
   font-size: 18px;
