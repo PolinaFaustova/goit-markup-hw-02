@@ -105,8 +105,8 @@ a {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-.button :hover,
-.button :focus {
+.button:hover,
+.button:focus {
   background-color: var(--blue-color);
   color: var(--total-white);
 }
@@ -134,14 +134,12 @@ a {
   background-color: var(--background-color);
 }
 .quality-h {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .quality-p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 
@@ -153,9 +151,7 @@ a {
 .section-doing {
   background-color: var(--background-color);
 }
-.doing-h,
-.team-h {
-  font-weight: 700;
+.title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -173,7 +169,6 @@ a {
   letter-spacing: 0.03em;
 }
 .team-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -204,17 +199,16 @@ a {
   color: var(--total-white);
 }
 
-.footer-contacts,
-.footer-mail,
-.footer-tel {
+.footer-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
+}
+.footer-contacts a {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-contacts a:hover,
 .footer-contacts a:focus {
   color: var(--blue-color);
@@ -225,11 +219,13 @@ a {
 .section-portfolio {
   background-color: var(--background-color);
 }
+.port {
+}
 .port-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--brand-color);
 }
 .port-p {
   font-size: 16px;
