@@ -74,6 +74,7 @@ a {
 .hero {
   background-color: var(--background-black);
   color: var(--total-white);
+  text-align: center;
 }
 .hero h1 {
   font-weight: 900;
@@ -131,7 +132,6 @@ a {
 }
 /* Секція якості quality */
 .section-quality {
-  background-color: var(--background-color);
 }
 .quality-h {
   font-size: 14px;
@@ -149,7 +149,6 @@ a {
 
 /* Секція чим ми займаємося doing */
 .section-doing {
-  background-color: var(--background-color);
 }
 .title {
   font-size: 36px;
@@ -217,7 +216,6 @@ a {
 /* Портфоліо */
 /* Секція ПОРТФОЛІО */
 .section-portfolio {
-  background-color: var(--background-color);
 }
 .port {
 }
